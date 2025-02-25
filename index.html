@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Abhinesh Grewal</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+    <header>
+        <nav class="navbar">
+            <div class="nav-left">
+                <a href="https://developer.mozilla.org/en-US/docs/Glossary/HTML5">HTML5</a>
+                <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript">JavaScript</a>
+                <a href="https://developer.mozilla.org/en-US/docs/Web/CSS">CSS</a>
+            </div>
+            <div class="nav-right">
+                <button data-bs-theme-value="dark" id="dark-mode">Dark</button>
+                <button data-bs-theme-value="light" id="light-mode">Light</button>
+                <button>Contact Me</button>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <div class="grid-container">
+            <div class="left-column">
+                <h1>Factorial Calculator</h1>
+                <p>Enter a number to calculate its factorial:</p>
+                <p>Formula: <code>n! = n * (n-1) * (n-2) * ... * 1</code></p>
+            </div>
+            <div class="right-column">
+                <input type="number" id="number-input" placeholder="Enter a number">
+            </div>
+            <div class="left-column">
+                <button id="calculate-btn">Enter</button>
+            </div>
+            <div class="right-column result-screen">
+                <p id="result">Result will appear here...</p>
+            </div>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <p>&copy; 2025 Abhinesh Grewal. All rights reserved.</p>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
